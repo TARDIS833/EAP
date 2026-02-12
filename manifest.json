@@ -1,8 +1,8 @@
 {
   "channel": "stable",
-  "patch_version": "2026.02.12-801",
+  "patch_version": "2026.02.12-802",
   "min_app_version": "8_0",
-  "released_at": "2026-02-12T02:06:04Z",
+  "released_at": "2026-02-12T05:19:01Z",
   "files": [
     {
       "path": "configs/excel_auto_mapping.json",

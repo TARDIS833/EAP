@@ -2039,13 +2039,25 @@ def run_gui():
     tk.Label(right_status, textvariable=smart_status, bg="#f6f7f9", anchor="e", width=42).pack(side="right", padx=(6, 12))
 
     output_row = tk.Frame(container, bg="#f6f7f9")
-    output_row.pack(fill="x", pady=16)
+    output_row.pack(fill="x", pady=(16, 6))
     tk.Label(output_row, text="출력 폴더", bg="#f6f7f9").pack(side="left")
-    output_entry = tk.Entry(output_row, textvariable=output_var, width=55, bg="#ffffff")
+    output_entry = tk.Entry(output_row, textvariable=output_var, width=46, bg="#ffffff")
     output_entry.pack(side="left", padx=8)
     tk.Button(output_row, text="폴더 선택", command=choose_output, padx=10).pack(side="left", padx=10)
     tk.Button(output_row, text="저장 폴더 열기", command=open_output_folder, padx=10).pack(side="left")
-    tk.Button(output_row, text="온라인 패치 업데이트", command=run_online_patch_update, padx=10).pack(side="left", padx=(10, 0))
+
+    patch_row = tk.Frame(container, bg="#f6f7f9")
+    patch_row.pack(fill="x", pady=(0, 10))
+    tk.Button(
+        patch_row,
+        text="온라인 패치 업데이트",
+        command=run_online_patch_update,
+        padx=12,
+        bg="#e8f0ff",
+        fg="#1f3a78",
+        relief="solid",
+        bd=1,
+    ).pack(side="right")
 
     run_btn = tk.Button(container, text="변환 시작", command=run, width=18, height=2)
     run_btn.pack(pady=12)
