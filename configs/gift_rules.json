@@ -1,0 +1,298 @@
+{
+  "rules": [
+    {
+      "name": "로크 젤리브라 증정",
+      "store": "공통",
+      "match_field": "product",
+      "contains": "[로크 젤리브라 증정]",
+      "output": {
+        "product": "로크젤리B",
+        "color": "랜덤",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "헬씨 브리프 증정 2",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품=헬씨브리프 증정 (색상랜덤)",
+      "output": {
+        "product": "헬씨P",
+        "color": "랜덤",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "기프트박스 중",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "기프트박스 (중)",
+      "output": {
+        "product": "타밈",
+        "color": "기프트패키지",
+        "size_mode": "fixed",
+        "size_value": "중(증정)",
+        "size_suffix": "",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "기프트박스 대",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "기프트박스 (대)",
+      "output": {
+        "product": "타밈",
+        "color": "기프트패키지",
+        "size_mode": "fixed",
+        "size_value": "대(증정)",
+        "size_suffix": "",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "헬씨브리프 증정 1",
+      "store": "공통",
+      "match_field": "product",
+      "contains": "[헬씨 브리프 증정]",
+      "output": {
+        "product": "헬씨P",
+        "color": "랜덤",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "헬씨 브리프 3",
+      "store": "공통",
+      "match_field": "product",
+      "contains": "(헬씨 브리프 증정)",
+      "output": {
+        "product": "헬씨P",
+        "color": "랜덤",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "로크 젤리브라 2",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품=로크 젤리브라",
+      "output": {
+        "product": "로크젤리B",
+        "color": "랜덤",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "헬씨 브리프 옵션 추가",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품=헬씨브리프",
+      "output": {
+        "product": "헬씨P",
+        "color": "랜덤",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "유발스타킹 증정(옵션)",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품증정=유발스타킹(블랙)FREE",
+      "output": {
+        "product": "유발스타킹",
+        "color": "블랙",
+        "size_mode": "fixed",
+        "size_value": "FREE(증정)",
+        "size_suffix": "",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "플로젤리브라 증정(옵션)",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품=플로젤리브라블랙S",
+      "output": {
+        "product": "플로젤리B",
+        "color": "블랙",
+        "size_mode": "fixed",
+        "size_value": "S(증정)",
+        "size_suffix": "",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "로크젤리브라 직접옵션 증정",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품로크젤리브라=블랙",
+      "output": {
+        "product": "로크젤리B",
+        "color": "블랙",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "캐미포시즌 3PACK 증정(레거시)",
+      "store": "공통",
+      "match_field": "product",
+      "contains": "캐미포시즌젤리브라탑3PACK",
+      "output": {
+        "product": "로크젤리B",
+        "color": "핑크",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "스무스프리브리프 5PACK 증정(레거시)",
+      "store": "공통",
+      "match_field": "product",
+      "contains": "스무스프리브리프5PACK",
+      "output": {
+        "product": "플로젤리B",
+        "color": "아이보리",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "플로젤리브라 사은품",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품=플로젤리브라",
+      "output": {
+        "product": "플로젤리B",
+        "color": "랜덤",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "매직스타킹 사은품",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품=매직스타킹 ver.2",
+      "output": {
+        "product": "매직스타킹",
+        "color": "랜덤",
+        "size_mode": "fixed",
+        "size_value": "FREE(증정)",
+        "size_suffix": "",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "골지면스타킹 사은품",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품=골지면스타킹 (블랙) FREE",
+      "output": {
+        "product": "골지면스타킹",
+        "color": "블랙",
+        "size_mode": "fixed",
+        "size_value": "FREE(증정)",
+        "size_suffix": "",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "유발스타킹 사은품",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품=유발스타킹 (블랙) FREE",
+      "output": {
+        "product": "유발스타킹",
+        "color": "블랙",
+        "size_mode": "fixed",
+        "size_value": "FREE(증정)",
+        "size_suffix": "",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "로크젤리브라 사은품 색상지정",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품 로크젤리브라=",
+      "output": {
+        "product": "로크젤리B",
+        "color": "랜덤",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "골지면스타킹 증정 선택",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품 선택=[증정] 골지면스타킹_블랙",
+      "output": {
+        "product": "골지면스타킹",
+        "color": "블랙",
+        "size_mode": "fixed",
+        "size_value": "FREE(증정)",
+        "size_suffix": "",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "스마트 골지면스타킹 증정",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품: 골지면스타킹(블랙)",
+      "output": {
+        "product": "골지면스타킹",
+        "color": "블랙",
+        "size_mode": "fixed",
+        "size_value": "FREE(증정)",
+        "size_suffix": "",
+        "qty": "1"
+      }
+    },
+    {
+      "name": "스마트 플로젤리브라 증정",
+      "store": "공통",
+      "match_field": "option",
+      "contains": "사은품: 플로젤리브라",
+      "output": {
+        "product": "플로젤리B",
+        "color": "랜덤",
+        "size_mode": "selected",
+        "size_value": "",
+        "size_suffix": "(증정)",
+        "qty": "1"
+      }
+    }
+  ]
+}
