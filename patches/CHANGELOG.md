@@ -1,5 +1,9 @@
 # Patch Changelog
 
+## 2026.02.12-803
+- configs/logic 동기화
+- min_app_version: 8_1
+
 ## 2026.02.12-802
 - configs/logic 동기화
 - min_app_version: 8_0

@@ -155,20 +155,6 @@
       }
     },
     {
-      "name": "캐미포시즌 3PACK 증정(레거시)",
-      "store": "공통",
-      "match_field": "product",
-      "contains": "캐미포시즌젤리브라탑3PACK",
-      "output": {
-        "product": "로크젤리B",
-        "color": "핑크",
-        "size_mode": "selected",
-        "size_value": "",
-        "size_suffix": "(증정)",
-        "qty": "1"
-      }
-    },
-    {
       "name": "스무스프리브리프 5PACK 증정(레거시)",
       "store": "공통",
       "match_field": "product",

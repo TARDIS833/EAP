@@ -1,8 +1,8 @@
 {
   "channel": "stable",
-  "patch_version": "2026.02.12-802",
-  "min_app_version": "8_0",
-  "released_at": "2026-02-12T05:19:01Z",
+  "patch_version": "2026.02.12-803",
+  "min_app_version": "8_1",
+  "released_at": "2026-02-12T08:45:00Z",
   "files": [
     {
       "path": "configs/excel_auto_mapping.json",
@@ -16,8 +16,8 @@
     },
     {
       "path": "configs/gift_rules.json",
-      "sha256": "1faa94368d91e0f425c9450227286d2062f7e04ba89c0ca2fd770f2437f771cc",
-      "size": 7874
+      "sha256": "0fd4ed4a6f8d04be409b28430c821dfaf69f55356c477a431c0528afca587e69",
+      "size": 7489
     }
   ],
   "notes": [
