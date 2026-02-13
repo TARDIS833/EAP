@@ -1,13 +1,13 @@
 {
   "channel": "stable",
-  "patch_version": "2026.02.12-803",
+  "patch_version": "2026.02.13-804",
   "min_app_version": "8_1",
-  "released_at": "2026-02-12T08:45:00Z",
+  "released_at": "2026-02-13T07:20:44Z",
   "files": [
     {
       "path": "configs/excel_auto_mapping.json",
-      "sha256": "ee5ff3fbdbc557cea31714597b740ccebfc14c7e0f5be8cf255ea97f4fbd6f06",
-      "size": 13195
+      "sha256": "6566848ce82be1394fa570aa7875d2cb33eaee84fa6b81c564bb66da9dde3cf6",
+      "size": 13318
     },
     {
       "path": "configs/custom_rules.json",
@@ -16,8 +16,8 @@
     },
     {
       "path": "configs/gift_rules.json",
-      "sha256": "0fd4ed4a6f8d04be409b28430c821dfaf69f55356c477a431c0528afca587e69",
-      "size": 7489
+      "sha256": "f0e9e2511bbd4376c4e0ce84b0e24fab94de840231138516c6df91a25bb4c496",
+      "size": 7488
     }
   ],
   "notes": [
